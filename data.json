@@ -28,17 +28,17 @@
         "stats": {
             "all": {
                 "commits": 10,
-                "prsOpened": 4,
+                "prsOpened": 5,
                 "prsMerged": 4
             },
             "6m": {
                 "commits": 10,
-                "prsOpened": 4,
+                "prsOpened": 5,
                 "prsMerged": 4
             },
             "3m": {
                 "commits": 10,
-                "prsOpened": 4,
+                "prsOpened": 5,
                 "prsMerged": 4
             }
         }
