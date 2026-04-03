@@ -15,7 +15,7 @@ else:
 
 day = int(input("Enter the day number")) # dont forget to typecast to int
 
-print("Today is: \n ") # how can you avoid printing newline here?
+print("Today is: " ,end=" ") # how can you avoid printing newline here?
 
 match day:
     case 1:

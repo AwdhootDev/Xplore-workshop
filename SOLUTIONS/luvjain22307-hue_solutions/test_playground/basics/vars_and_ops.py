@@ -12,7 +12,7 @@ a , n = 1, 31
 
 #for i in range(n):
  #   a *= 2 # can you replace this loop with a one liner?
-print(a * (2**n))
+print((a * 2)**n)
 
 # match the correct statements wrt bitwise operators
 

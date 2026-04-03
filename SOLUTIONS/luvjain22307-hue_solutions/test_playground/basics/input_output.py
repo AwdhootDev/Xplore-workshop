@@ -28,9 +28,6 @@ x,y,z = 67, 420 , 9000
 
 
 # 6 print statements is too much, can you get the same output in one print statement ?
-print(x)
-print('\n')
-print(y)
-print('\n')
-print(z)
+print(x,'\n',y,'\n',z)
+
 

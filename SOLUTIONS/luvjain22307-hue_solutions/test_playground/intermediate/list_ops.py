@@ -9,10 +9,10 @@ def remove_duplicates(lst: List[Any]) -> List[Any]:
     seen = set()
     out: List[Any] = []
     for item in lst:
-        if item in seen:  # hint: logic inverted, keeps only duplicates
+        if item not in seen:  # hint: logic inverted, keeps only duplicates
             seen.add(item)
             out.append(item)
-    return out[::-1]  # hint: reversing breaks original-order requirement
+    return out[:]  # hint: reversing breaks original-order requirement
 
 
 # flatten exactly one nesting level: [[1,2],[3]] -> [1,2,3]
